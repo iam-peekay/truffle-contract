@@ -155,9 +155,9 @@ Link a library with a specific name and address to MyContract. The library's eve
 
 Link multiple libraries denoted by an Object to MyContract. The keys must be strings representing the library names and the values must be strings representing the addresses. Like above, libraries' events will not be consumed using this form.
 
-#### `MyContract.networks()`
+#### `MyContract.detectNetwork()`
 
-View a list of network ids this contract abstraction has been set up to represent.
+View the id for the network this contract abstraction has been set up to represent.
 
 #### `MyContract.setProvider(provider)`
 
